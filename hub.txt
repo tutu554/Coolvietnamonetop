@@ -1,0 +1,20 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "COOLVIETNAM V2 👺", HidePremium = false, Introtext = "coolvietnam hub", SaveConfig = true, ConfigFolder = "fly gui 🇻🇳"})
+
+
+local flyTab = Window:MakeTab({
+	Name = "fly gui 🇻🇳",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+FlyTab:AddButton({
+	Name = "fly gui 💩",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/tutu554/Script-fly-gui/refs/heads/main/fly%20cool%20vn.txt"))()
+  	end    
+})
+
+
+end
+OrionLib:Init()
